@@ -1,0 +1,9 @@
+{ "controller" : {
+    "PUSH" : {
+	"type" : "login",
+	"data" : {
+	    "password" : string,
+	    "machineid" : int,
+	    }
+	}
+}}

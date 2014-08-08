@@ -1,0 +1,9 @@
+{ "host" : {
+    "RETURN" : {
+	"type" : "login"
+	"value" : false,
+	"reason" : string
+	//"reason" : "Password does not match exisiting value."
+	//"reason" : "A controller has already logged in to the host. Multiple controllers are forbidden."
+    }
+}}

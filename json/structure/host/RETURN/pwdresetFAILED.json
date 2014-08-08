@@ -1,0 +1,8 @@
+{ "host" : {
+    "RETURN" : {
+	"type" : "pwd_reset",
+	"value" : false,
+	"reason" : string,
+	//"reason" : "The value entered for MachineID does not match that of the controller previously attached"
+    }
+}}
