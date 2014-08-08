@@ -1,0 +1,19 @@
+{ "settings" : {
+	"controller" : {
+		"password" : string,
+		"flags" : {
+			"forcefeedback" : boolean,
+			"led" : boolean,
+			//Possible integration, Default is FALSE
+			"viddisplay" : boolean,
+			//FUTURE
+			"type" : int,
+			//0: XBOX Controller
+			"platform" : int,
+			//0: Linux, 1: Windows, 2: OS X
+			"constantid" : boolean
+		},
+		"machineid" : int,
+		//If no constantid flag, set to null
+	}
+}}

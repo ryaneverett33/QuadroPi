@@ -1,0 +1,30 @@
+{ "host" : {
+	"password" : string,
+	"flags" : {
+		"allow-ssh" : boolean,
+		//system(sudo stop ssh)
+		"camera" : boolean,
+		"piboard" : int,
+		//Only Model B and B+ supported, 0: Model B, 1: Model B+
+		"gps" : boolean,
+		"gpsboottime" : int,
+		//If no gps attached, set as null
+		"accelerometer" : boolean,
+		"gyroscope" : boolean,
+		"pinout" : {
+			"FmotorR" : int,
+			"FmotorL" : int,
+			"BmotorR" : int,
+			"BmotorL" : int,
+			"led_green" : int,
+			"led_red" : int,
+			"led_yellow" : int,
+			//pins for accelerometer
+			//pins for gyroscope
+			//pins for gps
+			//FUTURE
+		},
+		"audio" : boolean,
+		"hdmi-audio" : boolean
+	}
+}}
