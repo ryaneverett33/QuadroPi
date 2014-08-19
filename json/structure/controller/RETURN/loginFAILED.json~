@@ -1,6 +1,0 @@
-{ "host" : {
-    "RETURN" : {
-	"login" : boolean,
-	"reason" : string
-    }
-}}
