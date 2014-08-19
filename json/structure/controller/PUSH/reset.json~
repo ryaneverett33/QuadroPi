@@ -1,8 +1,0 @@
-{ "controller" : {
-    "login" : {
-	"reset" : true,
-	"machineid" : int,
-	"password" : string
-	}
-}
-}
