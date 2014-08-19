@@ -1,7 +1,0 @@
-{ "host" : {
-    "RETURN" : {
-	"type" : string,
-	"value" : boolean,
-	"reason" : string,
-    }
-}}
